@@ -1,6 +1,12 @@
 # Python Tuple Data Type & its methods
+#characteristics of Tuple
+#1. Ordered
+#2. Immutable
+#3. Allow Duplicates 
+#Creating a Tuple
 my_tuple = (1,2,3,4,5)
 print(my_tuple)
+print(type(my_tuple))  #Output: <class 'tuple'>
 
 #Indexing and Slicing
 print(my_tuple[1])  # Output: 2
